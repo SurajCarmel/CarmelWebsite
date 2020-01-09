@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Assets/screen-with-only-polygon.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
+.leftContainer {
+    width: 60%;
+    float: left;
+}
+
+.rightContainer {
+    float: right;
+}
+
+.leftContent {
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.carmelBlack {
+    width: 114px;
+    height: 42px;
+}
+
+.text1 {
+    font-family: Raleway;
+    letter-spacing: 1.4px;
+    color: #050505;
+    font-size: 24px;
+    font-
+}
+
+.space1 {
+    margin-top: 10%;
+}
+
+.text2 {
+    font-family: Tangerine;
+    letter-spacing: 2px;
+    color: #050505;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.space2 {
+    margin-top: 3%;
+}
+
+.space3 {
+    margin-top: 5%;
+}
