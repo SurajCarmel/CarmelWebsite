@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.leftContainer {
+    width: 5%;
+    float: left;
+}
+
+.rightContainer {
+    width: 95%;
+    float: right;
+    background-color: #E25959;
+}
+
+.textContainer {
+    width: 55%;
+    float: left;
+}
+
+.svgContainer {
+    width: 45%;
+    float: right;
+}
+
+.man {
+    margin-left: 25%;
+}
