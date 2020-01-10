@@ -4,20 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(../Assets/screen-with-only-polygon.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: cover;
-}
-
 .leftContainer {
-    width: 60%;
+    width: 65%;
     float: left;
 }
 
 .rightContainer {
     float: right;
+    width: 35%;
 }
 
 .leftContent {
@@ -36,11 +30,11 @@ body {
     letter-spacing: 1.4px;
     color: #050505;
     font-size: 24px;
-    font-
+    line-height: 1.6;
 }
 
 .space1 {
-    margin-top: 10%;
+    margin-top: 9%;
 }
 
 .text2 {
@@ -57,4 +51,8 @@ body {
 
 .space3 {
     margin-top: 5%;
+}
+
+.blueBiscuit {
+    fill: #32BDD2;
 }
