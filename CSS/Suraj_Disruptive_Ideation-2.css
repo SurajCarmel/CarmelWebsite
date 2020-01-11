@@ -4,20 +4,89 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    background-color: #E25959;
+}
+
 .leftContainer {
     width: 5%;
     float: left;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: center;
+    align-items: stretch;
+}
+
+.returnImage {
+    display: block;
+    margin: auto;
+}
+
+.disruptContainer {
+    margin: 10%;
+}
+
+.disruptiveIdeation {
+    font-size: 26px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-weight: bold;
+    font-family: 'Raleway';
+    display: inline-block;
+    margin: auto;
+}
+
+.navsvg {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.imageContainer {
+    margin: 10%;
 }
 
 .rightContainer {
     width: 95%;
     float: right;
-    background-color: #E25959;
+    padding-top: 10%;
+    padding-bottom: 8.5%;
 }
 
 .textContainer {
     width: 55%;
     float: left;
+    padding: 0 10% 0 5%;
+}
+
+.heading {
+    letter-spacing: 2.85px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.text {
+    font-family: Raleway;
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    color: #5C2323;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.previousImage {
+    width: 8%;
+    float: left;
+}
+
+.nextImage {
+    width: 92%;
+    float: right;
 }
 
 .svgContainer {
