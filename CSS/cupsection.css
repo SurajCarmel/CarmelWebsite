@@ -1,0 +1,43 @@
+.leftContainer {
+    width: 65%;
+    float: left;
+}
+
+.leftContent {
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.carmelBlack {
+    width: 114px;
+    height: 42px;
+}
+
+.text1 {
+    font-family: Raleway;
+    letter-spacing: 1.4px;
+    color: #050505;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.space1 {
+    margin-top: 9%;
+}
+
+.text2 {
+    font-family: Tangerine;
+    letter-spacing: 2px;
+    color: #050505;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.space2 {
+    margin-top: 3%;
+}
+
+.space3 {
+    margin-top: 5%;
+}
