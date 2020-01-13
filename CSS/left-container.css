@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.leftContainer {
+    width: 5%;
+}
+
+.returnImage {
+    display: block;
+    margin: auto;
+}
+
+.disruptContainer {
+    margin: 10% 0;
+    padding-left: 50%;
+}
+
+.disruptiveIdeation {
+    font-size: 28px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg)translateX(50%);
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+.navContainer {
+    margin: 50% 0;
+}
+
+.navsvg {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.imageContainer {
+    margin: 20%;
+}
