@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="420">
+        <path fill="transparent" stroke="black" 
+                                                d="M 217 27 Q 137 90 211 130 M 211 130 Q 250 155 211 179 M 211 179 Q 180 200 175 230 M 175 230 Q 185 200 213 182 M 213 182 Q 265 155 211 127 M 211 127 Q 155 90 217 27"/>
+        <path fill="transparent" stroke="black"
+                                                d= "M 105 249 A 85 9 0 1 1 118 255 M 118 255 A 75 6 0 1 0 105 249"/>
+        <path fill="transparent" stroke="black"
+                                                d= "M 230 235 Q 301 237.8 285.5 262
+                                                    L 262 270 218 316"
+                                                />
+    </svg>
