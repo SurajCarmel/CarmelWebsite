@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px) {
+    .text1 {
+        font-family: 'Raleway';
+        letter-spacing: 1.4px;
+        color: #050505;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .text2 {
+        font-family: 'Tangerine';
+        letter-spacing: 2.3px;
+        color: #050505;
+        font-size: 23px;
+        font-weight: 400;
+        padding-bottom: 3%;
+    }
+}
+
 .parent {
     height: 100vh;
 }
@@ -19,16 +37,15 @@
 }
 
 .cup {
-    width: 140px;
-    height: 216px;
+    width: 24%;
     margin-bottom: 5%;
 }
 
 .text1 {
     font-family: 'Raleway';
-    letter-spacing: 1px;
+    letter-spacing: 1.4px;
     color: #050505;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -39,16 +56,15 @@
 
 .text2 {
     font-family: 'Tangerine';
-    letter-spacing: 1px;
+    letter-spacing: 2.3px;
     color: #050505;
-    font-size: 23px;
+    font-size: 44px;
     font-weight: 400;
     padding-bottom: 3%;
 }
 
 .carmelBlack {
-    width: 114px;
-    height: 42px;
+    width: 12%;
 }
 
 .rightContainer {
