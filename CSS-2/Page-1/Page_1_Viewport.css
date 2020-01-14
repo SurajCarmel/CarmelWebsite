@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 100vh;
+}
+
+.leftContainer {
+    width: 65%;
+    float: left;
+}
+
+.rightContainer {
+    width: 35%;
+    float: right;
+}

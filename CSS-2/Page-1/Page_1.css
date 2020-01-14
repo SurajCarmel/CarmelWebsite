@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 100vh;
+}
+
+.leftContainer {
+    width: 65%;
+    float: left;
+}
+
+.leftContent {
+    margin: 10% 0 0 10%;
+    text-align: center;
+}
+
+.cup {
+    width: 140px;
+    height: 216px;
+    margin-bottom: 5%;
+}
+
+.text1 {
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    color: #050505;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.space {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.text2 {
+    font-family: 'Tangerine';
+    letter-spacing: 1px;
+    color: #050505;
+    font-size: 23px;
+    font-weight: 400;
+    padding-bottom: 3%;
+}
+
+.carmelBlack {
+    width: 114px;
+    height: 42px;
+}
+
+.rightContainer {
+    width: 35%;
+    float: right;
+}
