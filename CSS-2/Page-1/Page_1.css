@@ -7,16 +7,16 @@
 @media screen and (max-width: 1024px) {
     .text1 {
         font-family: 'Raleway';
-        letter-spacing: 1.4px;
+        letter-spacing: 1.1px;
         color: #050505;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
     }
     .text2 {
         font-family: 'Tangerine';
-        letter-spacing: 2.3px;
+        letter-spacing: 2px;
         color: #050505;
-        font-size: 23px;
+        font-size: 21px;
         font-weight: 400;
         padding-bottom: 3%;
     }

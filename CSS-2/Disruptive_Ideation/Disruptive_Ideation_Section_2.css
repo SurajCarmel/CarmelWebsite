@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E25959;
+}
+
+.textContainer {
+    width: 55%;
+    float: left;
+    padding: 0 10% 0 5%;
+    margin-top: 12%;
+}
+
+.heading {
+    letter-spacing: 2.85px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.text {
+    font-family: Raleway;
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    color: #5C2323;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.previousImage {
+    width: 8%;
+    float: left;
+}
+
+.nextImage {
+    width: 92%;
+    float: right;
+}
