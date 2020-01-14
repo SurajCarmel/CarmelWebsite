@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B676F4;
+}
+
+.leftContainer {
+    width: 5%;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.returnImage {
+    display: block;
+    margin: auto;
+}
+
+.disruptContainer {
+    margin: 50% 0;
+    padding-left: 50%;
+}
+
+.disruptiveIdeation {
+    font-size: 28px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg)translateX(50%);
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+.navContainer {
+    margin: 50% 0;
+}
+
+.navsvg {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.imageContainer {
+    margin: 20%;
+}
+
+.rightContainer {
+    width: 95%;
+    float: right;
+    margin-top: 13%;
+    margin-bottom: 11%;
+}
+
+.textContainer {
+    width: 55%;
+    float: left;
+    padding: 0 10% 0 5%;
+}
+
+.heading {
+    letter-spacing: 2.85px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.text {
+    font-family: Raleway;
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    color: #49256C;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.previousImage {
+    width: 8%;
+    float: left;
+}
+
+.nextImage {
+    width: 92%;
+    float: right;
+}
+
+.svgContainer {
+    width: 45%;
+    float: right;
+}
+
+.svg {
+    margin-left: 10%;
+    margin-right: 20%;
+}
