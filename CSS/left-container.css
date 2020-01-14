@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-.leftContainer {
-    width: 5%;
-}
+.leftContainer {}
 
 .returnImage {
     display: block;
@@ -14,7 +12,7 @@
 }
 
 .disruptContainer {
-    margin: 10% 0;
+    margin: 5% 0;
     padding-left: 50%;
 }
 
@@ -27,15 +25,15 @@
 }
 
 .navContainer {
-    margin: 50% 0;
+    margin: 5% 0;
 }
 
 .navsvg {
-    width: 50%;
+    width: 5%;
     display: block;
     margin: auto;
 }
 
 .imageContainer {
-    margin: 20%;
+    margin: 5% 0;
 }
