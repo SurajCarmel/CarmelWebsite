@@ -21,7 +21,9 @@
 
 .cup {
     width: 24%;
-    margin-bottom: 5%;
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
 }
 
 .text1 {
