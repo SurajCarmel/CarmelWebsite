@@ -43,10 +43,11 @@ body {
 
 .navContainer {
     padding-top: 8vh;
+    width: 50%;
+    margin: auto;
 }
 
 .navsvg {
-    width: 45%;
     display: block;
     margin: auto;
 }
@@ -115,7 +116,7 @@ body {
     margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439) {
     .disruptiveIdeation {
         font-size: 18px;
         writing-mode: vertical-rl;

@@ -41,7 +41,7 @@
     height: 42px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .text1 {
         font-family: 'Raleway';
         letter-spacing: 1.1px;
