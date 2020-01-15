@@ -4,24 +4,6 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
-    .text1 {
-        font-family: 'Raleway';
-        letter-spacing: 1.1px;
-        color: #050505;
-        font-size: 12px;
-        font-weight: 400;
-    }
-    .text2 {
-        font-family: 'Tangerine';
-        letter-spacing: 2px;
-        color: #050505;
-        font-size: 21px;
-        font-weight: 400;
-        padding-bottom: 3%;
-    }
-}
-
 .parent {
     height: 100vh;
 }
@@ -70,4 +52,22 @@
 .rightContainer {
     width: 35%;
     float: right;
+}
+
+@media screen and (max-width: 1024px) {
+    .text1 {
+        font-family: 'Raleway';
+        letter-spacing: 1.1px;
+        color: #050505;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .text2 {
+        font-family: 'Tangerine';
+        letter-spacing: 2px;
+        color: #050505;
+        font-size: 21px;
+        font-weight: 400;
+        padding-bottom: 3%;
+    }
 }

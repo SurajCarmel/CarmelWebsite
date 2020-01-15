@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.parent {
+    height: 100vh;
+}
+
+.leftContainer {
+    width: 5%;
+}
+
+.rightContainer {
+    margin-top: 12%;
+    width: 95%;
+}
+
+.textContainer {
+    width: 55%;
+}
+
+.svgContainer {
+    width: 45%;
+}

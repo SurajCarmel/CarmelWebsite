@@ -8,12 +8,8 @@ body {
     background-color: #E25959;
 }
 
-.svgContainer {
-    width: 45%;
-    float: right;
-    margin-top: 12%;
-}
-
 .man {
-    margin-left: 30%;
+    display: block;
+    width: 50%;
+    margin: auto;
 }
