@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0AE3F;
+}
+
+.leftContainer {
+    height: 100vh;
+    width: 5%;
+    float: left;
+}
+
+.rightContainer {
+    height: 100vh;
+    width: 95%;
+    float: right;
+    position: relative;
+}
+
+.rightContent {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textContainer {
+    width: 55%;
+    float: left;
+}
+
+.svgContainer {
+    width: 45%;
+    float: right;
+}

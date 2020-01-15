@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0AE3F;
+}
+
+.svg {
+    margin-left: 20%;
+    margin-right: 30%;
+}

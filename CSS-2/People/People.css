@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0AE3F;
+}
+
+.leftContainer {
+    height: 100vh;
+    width: 5%;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.imageContainer {
+    padding: 2vh 0 5vh 0;
+}
+
+.returnImage {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.disruptContainer {
+    padding-left: 50%;
+}
+
+.disruptiveIdeation {
+    font-size: 26px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg)translateX(50%);
+    font-weight: 600;
+    font-family: 'Raleway';
+}
+
+.navContainer {
+    padding-top: 8vh;
+    width: 50%;
+    margin: auto;
+}
+
+.navsvg {
+    display: block;
+    margin: auto;
+}
+
+.rightContainer {
+    height: 100vh;
+    width: 95%;
+    float: right;
+    position: relative;
+}
+
+.rightContent {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textContainer {
+    padding: 5% 10% 0 5%;
+    width: 55%;
+    float: left;
+}
+
+.heading {
+    letter-spacing: 2.85px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.text {
+    font-family: 'Raleway';
+    font-size: 26px;
+    letter-spacing: 0.2px;
+    line-height: 1.3;
+    color: #5D4716;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.previousImage {
+    width: 8%;
+    float: left;
+}
+
+.nextImage {
+    width: 92%;
+    float: right;
+}
+
+.buttons {
+    width: 50px;
+    height: 50px;
+}
+
+.svgContainer {
+    width: 45%;
+    float: right;
+}
+
+.svg {
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439) {
+    .disruptiveIdeation {
+        font-size: 18px;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg)translateX(50%);
+        font-weight: 600;
+        font-family: 'Raleway';
+    }
+    .heading {
+        letter-spacing: 2.85px;
+        color: #FFFFFF;
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 38px;
+    }
+    .text {
+        font-family: 'Raleway';
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        line-height: 1.3;
+        color: #5C2323;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: justify;
+    }
+    .buttons {
+        width: 35px;
+        height: 35px;
+    }
+}
