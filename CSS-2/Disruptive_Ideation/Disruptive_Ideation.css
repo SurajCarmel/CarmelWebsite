@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #E25959;
-}
-
 .parent {
     height: 100vh;
 }
@@ -56,6 +52,7 @@ body {
     height: 100vh;
     width: 95%;
     float: right;
+    background-color: #E25959;
     position: relative;
 }
 
@@ -90,19 +87,13 @@ body {
     text-align: justify;
 }
 
-.previousImage {
-    width: 8%;
-    float: left;
-}
-
-.nextImage {
-    width: 92%;
-    float: right;
-}
-
 .buttons {
     width: 50px;
     width: 50px;
+}
+
+.space {
+    margin-right: 1vw;
 }
 
 .svgContainer {
@@ -110,7 +101,7 @@ body {
     float: right;
 }
 
-.man {
+.svg {
     width: 50%;
     display: block;
     margin: auto;

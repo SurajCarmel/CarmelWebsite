@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A2C121;
+}
+
+.svg {
+    display: block;
+    width: 50%;
+    margin: auto;
+}

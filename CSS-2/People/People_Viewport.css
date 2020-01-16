@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #E0AE3F;
-}
-
 .leftContainer {
     height: 100vh;
     width: 5%;

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imageContainer {
+    padding: 2vh 0 5vh 0;
+}
+
+.returnImage {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.disruptContainer {
+    padding-left: 50%;
+}
+
+.disruptiveIdeation {
+    font-size: 26px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg)translateX(50%);
+    font-weight: 600;
+    font-family: 'Raleway';
+}
+
+.navContainer {
+    padding-top: 8vh;
+    width: 50%;
+    margin: auto;
+}
+
+.navsvg {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .disruptiveIdeation {
+        font-size: 18px;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg)translateX(50%);
+        font-weight: 600;
+        font-family: 'Raleway';
+    }
+}
