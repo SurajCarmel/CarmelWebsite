@@ -47,7 +47,7 @@ body {
     height: 50px;
 }
 
-@media screen and (max-width: 1024px) and (max-width: 1439) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .heading {
         letter-spacing: 2.85px;
         color: #FFFFFF;

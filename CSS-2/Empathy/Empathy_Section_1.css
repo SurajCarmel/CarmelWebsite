@@ -37,7 +37,7 @@
     margin: auto;
 }
 
-@media screen and (max-width: 1024px) and (max-width: 1439) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .disruptiveIdeation {
         font-size: 18px;
         writing-mode: vertical-rl;
