@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    padding-top: 8vh;
+    width: 50%;
+    margin: auto;
+}
+
+.navsvg {
+    display: block;
+    margin: auto;
+}

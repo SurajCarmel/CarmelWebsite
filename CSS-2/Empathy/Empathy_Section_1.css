@@ -26,17 +26,6 @@
     font-family: 'Raleway';
 }
 
-.navContainer {
-    padding-top: 8vh;
-    width: 50%;
-    margin: auto;
-}
-
-.navsvg {
-    display: block;
-    margin: auto;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     .disruptiveIdeation {
         font-size: 18px;

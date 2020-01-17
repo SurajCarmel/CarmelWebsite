@@ -104,9 +104,9 @@
     margin-right: 20%;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (max-device-width:768px) {
     .disruptiveIdeation {
-        font-size: 18px;
+        font-size: 10px;
         writing-mode: vertical-rl;
         transform: rotate(-180deg)translateX(50%);
         font-weight: 600;
@@ -117,11 +117,104 @@
         color: #FFFFFF;
         font-family: 'Raleway';
         font-weight: 600;
-        font-size: 38px;
+        font-size: 22px;
+    }
+    .text {
+        font-family: 'Raleway';
+        font-size: 10px;
+        letter-spacing: 0.2px;
+        line-height: 1.3;
+        color: #4D5C0F;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: justify;
+    }
+    .buttons {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .disruptiveIdeation {
+        font-size: 14px;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg)translateX(50%);
+        font-weight: 600;
+        font-family: 'Raleway';
+    }
+    .heading {
+        letter-spacing: 2.85px;
+        color: #FFFFFF;
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 30px;
     }
     .text {
         font-family: 'Raleway';
         font-size: 14px;
+        letter-spacing: 0.2px;
+        line-height: 1.3;
+        color: #4D5C0F;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: justify;
+    }
+    .buttons {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .disruptiveIdeation {
+        font-size: 20px;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg)translateX(50%);
+        font-weight: 600;
+        font-family: 'Raleway';
+    }
+    .heading {
+        letter-spacing: 2.85px;
+        color: #FFFFFF;
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 42px;
+    }
+    .text {
+        font-family: 'Raleway';
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        line-height: 1.3;
+        color: #4D5C0F;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: justify;
+    }
+    .buttons {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-device-width:1921px) and (max-device-width:2560px) {
+    .disruptiveIdeation {
+        font-size: 36px;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg)translateX(50%);
+        font-weight: 600;
+        font-family: 'Raleway';
+    }
+    .heading {
+        letter-spacing: 2.85px;
+        color: #FFFFFF;
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 75px;
+    }
+    .text {
+        font-family: 'Raleway';
+        font-size: 36px;
         letter-spacing: 0.2px;
         line-height: 1.3;
         color: #4D5C0F;
