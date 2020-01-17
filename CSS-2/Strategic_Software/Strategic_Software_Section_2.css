@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rightContent {
+    margin-top: 8%;
+}
+
+.content {
+    width: 65%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    color: #505050;
+    background-color: #B8D5DD;
+}
+
+.svgContainer {
+    width: 50%;
+    margin: auto;
+    padding-top: 7%;
+}
+
+@media screen and (max-device-width: 768px) {
+    .content {
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .content {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .content {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .content {
+        font-size: 23px;
+    }
+}
