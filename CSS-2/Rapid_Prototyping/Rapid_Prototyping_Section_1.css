@@ -26,12 +26,26 @@
     font-family: 'Raleway';
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (max-device-width:768px) {
     .disruptiveIdeation {
-        font-size: 18px;
-        writing-mode: vertical-rl;
-        transform: rotate(-180deg)translateX(50%);
-        font-weight: 600;
-        font-family: 'Raleway';
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .disruptiveIdeation {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .disruptiveIdeation {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-device-width:1921px) and (max-device-width:2560px) {
+    .disruptiveIdeation {
+        font-size: 36px;
     }
 }

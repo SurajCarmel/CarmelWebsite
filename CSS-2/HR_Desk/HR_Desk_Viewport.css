@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {}
+
+.leftContainer {
+    width: 30%;
+    float: left;
+}
+
+.rightContainer {
+    width: 70%;
+    float: right;
+}

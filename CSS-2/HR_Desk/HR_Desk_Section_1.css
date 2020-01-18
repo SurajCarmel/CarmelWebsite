@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.leftContent {
+    padding-left: 12%;
+}
+
+.hrDesk {
+    padding-top: 90%;
+}
+
+.hr {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 60px;
+    color: #32BDD2;
+    border-top: 0.6vw;
+}
+
+.desk {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 60px;
+    color: #32BDD2;
+}
+
+.hrText {
+    color: #505050;
+    padding-top: 5%;
+    width: 60%;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.emailSpace {
+    padding-top: 8%;
+}
+
+.hrEmail {
+    border-bottom: 1px solid #505050;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #505050;
+}
+
+@media screen and (max-device-width: 768px) {
+    .hr {
+        font-size: 23px;
+    }
+    .desk {
+        font-size: 23px;
+    }
+    .hrText {
+        font-size: 7px;
+    }
+    .hrEmail {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .hr {
+        font-size: 31px;
+    }
+    .desk {
+        font-size: 31px;
+    }
+    .hrText {
+        font-size: 10px;
+    }
+    .hrEmail {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .hr {
+        font-size: 46px;
+    }
+    .desk {
+        font-size: 46px;
+    }
+    .hrText {
+        font-size: 15px;
+    }
+    .hrEmail {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .hr {
+        font-size: 82px;
+    }
+    .desk {
+        font-size: 82px;
+    }
+    .hrText {
+        font-size: 28px;
+    }
+    .hrEmail {
+        font-size: 30px;
+    }
+}
