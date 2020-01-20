@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.font {
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+    .font {
+        font-size: 10px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-device-width:1024px) and (max-device-width:1440px) {
+    .font {
+        font-size: 40px;
+        text-align: right;
+    }
+}
