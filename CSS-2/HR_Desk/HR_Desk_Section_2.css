@@ -5,7 +5,7 @@
 }
 
 .rightContent {
-    padding: 16% 8% 5% 0;
+    padding: 10% 13% 5% 0;
 }
 
 .join {
@@ -13,84 +13,95 @@
     font-family: 'Raleway';
     padding-bottom: 3%;
     font-size: 37px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .joinText {
     color: #505050;
     font-family: 'Raleway';
-    font-size: 21px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 400;
     padding-bottom: 3%;
+    letter-spacing: 1px;
 }
 
 .textBackground {
     background-color: #EAF2F4;
-    padding: 3%;
+    padding: 5% 4% 3% 5%;
 }
 
 .come {
     color: #505050;
     font-family: 'Raleway';
     font-size: 37px;
-    font-weight: 700;
+    font-weight: 600;
     padding-bottom: 3%;
 }
 
 .comeText {
     color: #505050;
     font-family: 'Raleway';
-    font-size: 21px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 400;
     padding-bottom: 3%;
+    letter-spacing: 0.8px;
+}
+
+.fileContainer {
+    margin-bottom: 2%;
 }
 
 .selectContainer {
     height: inherit;
     background-color: white;
     border: 1px solid #DFEBEF;
-    padding: 3%;
+    padding: 2% 2%;
     width: 45%;
     float: left;
 }
 
 .select {
     padding-bottom: 1%;
-    font-size: 18px;
+    font-size: 19px;
     color: #595959;
     font-family: 'Raleway';
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .maximum {
-    padding-bottom: 4%;
-    font-size: 16px;
+    padding-bottom: 6%;
+    font-size: 17px;
     color: #707070;
     font-family: 'Raleway';
     font-weight: 400;
     width: 90%;
+    letter-spacing: 1px;
 }
 
 .browse {
+    font-family: 'Raleway';
+    font-size: 15px;
     background-color: #32BDD2;
+    font-weight: 500;
     border-radius: 5%;
-    padding: 1% 2%;
+    padding: 2% 3%;
     color: #FFFFFF;
     border: 0;
+    letter-spacing: 1px;
 }
 
 .uploadContainer {
     background-color: #32BDD2;
     border: 1px solid #DFEBEF;
-    padding: 4%;
+    padding: 2%;
     width: 45%;
     float: left;
 }
 
 .uploadBackground {
     border: 1px dashed white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 8% 0;
 }
 
 .upload {
@@ -103,9 +114,10 @@
 .drop {
     font-family: 'Raleway';
     font-weight: 600;
-    font-size: 18px;
+    font-size: 19px;
     color: #FFFFFF;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .clear {
@@ -113,13 +125,46 @@
 }
 
 .alertFile {
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-weight: 500;
     padding: 2%;
     width: 90%;
     color: #FFFFFF;
     background-color: #E65959;
-    visibility: hidden;
+    display: none;
+}
+
+.g-recaptcha {
+    transform: scale(1.2);
+    transform-origin: 0 0;
+}
+
+.alertCaptcha {
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 2%;
+    width: 45%;
+    color: #FFFFFF;
+    background-color: #E65959;
+    margin-top: 4%;
+    display: none;
+}
+
+.submit {
+    box-shadow: 0px 1px 1px 2px rgba(80, 80, 80, 0.75);
+    border-radius: 18px;
+    background-color: #505050;
+    padding: 1% 3%;
+    color: #FFFFFF;
+    border: 0 solid #505050;
+    margin-top: 1%;
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.workExperience {
+    padding-top: 12%;
 }
 
 

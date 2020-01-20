@@ -169,6 +169,10 @@
     }
     .content {
         font-size: 9px;
+        width: 70%;
+    }
+    .svgContainer {
+        width: 55%;
     }
 }
 
