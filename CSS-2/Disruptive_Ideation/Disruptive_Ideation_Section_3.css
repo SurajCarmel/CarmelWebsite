@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #E25959;
-}
-
 .svg {
-    display: block;
-    width: 50%;
-    margin: auto;
+    background-color: #E25959;
 }
