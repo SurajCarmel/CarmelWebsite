@@ -12,10 +12,10 @@
     height: 100vh;
     width: 5%;
     float: left;
-    background-color: #32BDD2;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: #32BDD2;
 }
 
 .row1 {
@@ -53,7 +53,7 @@
 
 .navContainer {
     padding-top: 8vh;
-    width: 50%;
+    width: 45%;
     margin: auto;
 }
 
@@ -65,10 +65,24 @@
     position: relative;
 }
 
+.rightContent {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .textContainer1 {
     width: 55%;
     padding: 0 10% 0 5%;
     float: left;
+}
+
+.heading {
+    letter-spacing: 2.85px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 3vw;
 }
 
 .text1 {
@@ -100,24 +114,10 @@
     position: relative;
 }
 
-.rightContent {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .textContainer {
     padding: 0 7% 0 5%;
     width: 50%;
     float: left;
-}
-
-.heading {
-    letter-spacing: 2.85px;
-    color: #FFFFFF;
-    font-family: 'Raleway';
-    font-weight: 600;
-    font-size: 3vw;
 }
 
 .text {
@@ -134,6 +134,10 @@
 .buttons {
     width: 50px;
     height: 50px;
+}
+
+.space {
+    margin-right: 1vw;
 }
 
 .svgContainer {

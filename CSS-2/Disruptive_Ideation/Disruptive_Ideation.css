@@ -13,15 +13,24 @@
     background-color: #FFFFFF;
     width: 5%;
     float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row {
+    flex-grow: 1;
+    background-color: #FFFFFF;
+}
+
+.lastRow {
+    flex-grow: 8;
+    background-color: #FFFFFF;
 }
 
 .imageContainer {
     padding: 2vh 0 5vh 0;
-}
-
-.returnImage {
     width: 70%;
-    display: block;
     margin: auto;
 }
 
@@ -40,11 +49,6 @@
 .navContainer {
     padding-top: 8vh;
     width: 45%;
-    margin: auto;
-}
-
-.navsvg {
-    display: block;
     margin: auto;
 }
 
@@ -93,7 +97,7 @@
 }
 
 .space {
-    margin-right: 1vw;
+    margin-right: 0.75vw;
 }
 
 .svgContainer {

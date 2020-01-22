@@ -12,6 +12,9 @@
     height: 100vh;
     width: 5%;
     float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .rightContainer {

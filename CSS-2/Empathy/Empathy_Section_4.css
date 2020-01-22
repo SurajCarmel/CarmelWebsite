@@ -3,14 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.navContainer {
-    padding-top: 8vh;
-    width: 45%;
-    margin: auto;
-}
-
-.navsvg {
-    display: block;
-    margin: auto;
-}
