@@ -12,14 +12,31 @@
     height: 100vh;
     width: 5%;
     float: left;
-    background-color: #FFFFFF;
+    background-color: #32BDD2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+}
+
+.row1 {
+    background-color: #FFFFFF;
+    flex-grow: 1;
+}
+
+.row2 {
+    background-color: #FFFFFF;
+    flex-grow: 1;
+}
+
+.row3 {
+    background-color: #FFFFFF;
+    flex-grow: 9;
 }
 
 .returnImage {
     width: 70%;
+    padding: 2vh 0 5vh 0;
+    margin: auto;
 }
 
 .disruptContainer {
@@ -37,6 +54,7 @@
 .navContainer {
     padding-top: 8vh;
     width: 50%;
+    margin: auto;
 }
 
 .rightContainer1 {
