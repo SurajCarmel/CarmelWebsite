@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #8296AD;
-}
-
 .svg {
-    margin-left: 10%;
-    margin-right: 25%;
+    background-color: #8296AD;
 }

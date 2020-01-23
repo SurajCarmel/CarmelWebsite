@@ -1,3 +1,5 @@
+/* ------------------------Common-------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,15 +15,24 @@
     width: 5%;
     float: left;
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row {
+    flex-grow: 1;
+    background-color: #FFFFFF;
+}
+
+.lastRow {
+    flex-grow: 8;
+    background-color: #FFFFFF;
 }
 
 .imageContainer {
     padding: 2vh 0 5vh 0;
-}
-
-.returnImage {
     width: 70%;
-    display: block;
     margin: auto;
 }
 
@@ -43,16 +54,10 @@
     margin: auto;
 }
 
-.navsvg {
-    display: block;
-    margin: auto;
-}
-
 .rightContainer {
     height: 100vh;
     width: 95%;
     float: right;
-    background-color: #8296AD;
     position: relative;
 }
 
@@ -60,12 +65,6 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-}
-
-.textContainer {
-    padding: 5% 10% 0 5%;
-    width: 50%;
-    float: left;
 }
 
 .heading {
@@ -81,7 +80,6 @@
     font-size: 26px;
     letter-spacing: 0.2px;
     line-height: 1.3;
-    color: #324153;
     margin-top: 5%;
     margin-bottom: 10%;
     text-align: justify;
@@ -93,15 +91,32 @@
 }
 
 .space {
-    margin-right: 1vw;
+    margin-right: 0.75vw;
 }
 
-.svgContainer {
+
+/* ----------------------------------------Journey----------------------------------- */
+
+.journeyBackgroundColor {
+    background-color: #8296AD;
+}
+
+.journeyTextContainer {
+    padding: 5% 10% 0 5%;
+    width: 50%;
+    float: left;
+}
+
+.journeyTextColor {
+    color: #324153;
+}
+
+.journeySvgContainer {
     width: 50%;
     float: right;
 }
 
-.svg {
+.journeySvg {
     margin-left: 10%;
     margin-right: 25%;
 }

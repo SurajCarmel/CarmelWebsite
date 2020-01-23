@@ -49,6 +49,7 @@
 
 .fileContainer {
     margin-bottom: 2%;
+    display: flex
 }
 
 .selectContainer {
@@ -57,7 +58,6 @@
     border: 1px solid #DFEBEF;
     padding: 2% 2%;
     width: 45%;
-    float: left;
 }
 
 .select {
@@ -96,7 +96,6 @@
     border: 1px solid #DFEBEF;
     padding: 2%;
     width: 45%;
-    float: left;
 }
 
 .uploadBackground {
@@ -118,10 +117,6 @@
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 1px;
-}
-
-.clear {
-    clear: both;
 }
 
 .alertFile {
@@ -166,14 +161,6 @@
 .workExperience {
     padding-top: 12%;
 }
-
-
-/*
-.g-recaptcha {
-    transform: scale(2);
-    transform-origin: 0 0;
-}
-*/
 
 .alertCaptcha {
     font-family: 'Raleway';

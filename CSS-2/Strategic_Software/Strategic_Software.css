@@ -8,13 +8,13 @@
     height: 100vh;
 }
 
-.leftContainer {
+.strategicSoftwareLeftContainer {
     height: 100vh;
     width: 40%;
     float: left;
 }
 
-.leftContent {
+.strategicSoftwareleftContent {
     padding: 7% 0 0 12%;
 }
 
@@ -81,7 +81,7 @@
     color: #212121;
 }
 
-.text {
+.strategicSoftwareText {
     font-family: 'Raleway';
     font-size: 28px;
     font-weight: 400;
@@ -90,17 +90,17 @@
     padding-top: 4%;
 }
 
-.rightContainer {
+.strategicSoftwareRightContainer {
     height: 100vh;
     width: 60%;
     float: right;
 }
 
-.rightContent {
+.strategicSoftwareRightContent {
     margin-top: 8%;
 }
 
-.content {
+.strategicSoftwareContent {
     width: 65%;
     margin: auto;
     padding: 2%;
@@ -112,7 +112,7 @@
     background-color: #B8D5DD;
 }
 
-.svgContainer {
+.strategicSoftwareSvgContainer {
     width: 50%;
     margin: auto;
     padding-top: 7%;
@@ -137,10 +137,10 @@
     .future {
         font-size: 11px;
     }
-    .text {
+    .strategicSoftwareText {
         font-size: 10px;
     }
-    .content {
+    .strategicSoftwareContent {
         font-size: 7px;
     }
 }
@@ -164,14 +164,14 @@
     .future {
         font-size: 15px;
     }
-    .text {
+    .strategicSoftwareText {
         font-size: 14px;
     }
-    .content {
+    .strategicSoftwareContent {
         font-size: 9px;
         width: 70%;
     }
-    .svgContainer {
+    .strategicSoftwareSvgContainer {
         width: 55%;
     }
 }
@@ -195,10 +195,10 @@
     .future {
         font-size: 25px;
     }
-    .text {
+    .strategicSoftwareText {
         font-size: 22px;
     }
-    .content {
+    .strategicSoftwareContent {
         font-size: 13px;
     }
 }
@@ -222,10 +222,10 @@
     .future {
         font-size: 44px;
     }
-    .text {
+    .strategicSoftwareText {
         font-size: 39px;
     }
-    .content {
+    .strategicSoftwareContent {
         font-size: 23px;
     }
 }

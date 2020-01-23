@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.leftContainer {
+.HRleftContainer {
     width: 30%;
     float: left;
 }
 
-.leftContent {
+.HRleftContent {
     padding-left: 16%;
 }
 
@@ -54,12 +54,12 @@
     color: #505050;
 }
 
-.rightContainer {
+.HRrightContainer {
     width: 70%;
     float: right;
 }
 
-.rightContent {
+.HRrightContent {
     padding: 10% 13% 5% 0;
 }
 
@@ -166,6 +166,10 @@
     height: 32px;
 }
 
+.clear {
+    clear: both;
+}
+
 .drop {
     font-family: 'Raleway';
     font-weight: 600;
@@ -173,10 +177,6 @@
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 1px;
-}
-
-.clear {
-    clear: both;
 }
 
 .alertFile {
